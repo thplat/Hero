@@ -32,3 +32,26 @@ body {
 .login-container {
     margin-top: 10%;
 }
+
+.left-wrapper {
+    padding-left: 245px;
+}
+
+.sidebar-wrapper {
+  margin-left: -245px;
+  left: 245px;
+  width: 245px;
+  background: #2c3e50;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+  border-top: 1px solid #1E2E3F;
+  top: 70px;
+}
+
+.page-content-wrapper {
+  width: 100%;
+}
+

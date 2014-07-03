@@ -14,4 +14,4 @@
 Route::get('/login', 'SessionController@showLogin');
 Route::post('/login', 'SessionController@login');
 
-Route::get('/dashboard', 'BlogController@showDashboard');
+Route::get('/dashboard', 'AdminController@showDashboard');

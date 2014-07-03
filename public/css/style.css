@@ -1,0 +1,34 @@
+.navbar-inverse { background-color: #2c3e50; }
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: #1a242f;
+}
+.navbar-inner { min-height: 70px; }
+
+.navbar .nav>li a { 
+    min-height: 70px;
+    padding-top: 25px;
+}
+
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+    color: #fff;
+}
+
+body {
+    padding-top: 75px;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}       
+
+.container-960 {
+    max-width: 960px;
+}
+
+.relative { position: relative; }
+
+.login-container {
+    margin-top: 10%;
+}

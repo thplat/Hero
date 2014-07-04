@@ -121,7 +121,9 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-		'Hero\CommandBus\CommandBusServiceProvider'
+
+		'Hero\CommandBus\CommandBusServiceProvider',
+		'Hero\Posts\PostsServiceProvider'
 
 	),
 

@@ -53,5 +53,47 @@ body {
 
 .page-content-wrapper {
   width: 100%;
+  padding: 1rem;
 }
 
+ul a{
+  color: #fff;
+}
+
+.padded-sidemenu {
+
+}
+
+  .padded-sidemenu > li.active > a, .padded-sidemenu > li > a{
+    background-color: #0A1724;    
+    border-radius: 0;
+    border-bottom: 1px solid #20262C;
+  }
+
+  .padded-sidemenu > li.active:hover > a, .padded-sidemenu > li:hover > a  {
+    background-color: #0A1724;
+    color: #EE352A;
+  }
+
+  .padded-sidemenu li a span {
+    padding-right: 0.6rem;
+  }
+
+    .padded-sidemenu ul {
+
+    }
+
+    .padded-sidemenu ul > li > a {
+      padding-left: 3.9rem; 
+      border-radius: 0; 
+      background: #222F3F;
+    }
+
+      .padded-sidemenu ul > li > a:hover {
+        background-color: #EE352A;
+        color: #fff;
+      }
+
+.nav-stacked>li+li {
+  margin: 0;
+}

@@ -9,7 +9,7 @@ abstract class Command {
 
     public $data;
 
-    public function __construct(Array $data)
+    public function __construct(Array $data = [])
     {
         $this->data = $data;
     }
